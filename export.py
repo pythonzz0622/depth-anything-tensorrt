@@ -2,7 +2,6 @@ import os
 import torch
 import torch.onnx
 import argparse
-
 from depth_anything.dpt import DPT_DINOv2
 from depth_anything.util.transform import Resize, NormalizeImage, PrepareForNet
 
